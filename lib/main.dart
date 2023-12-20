@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(fontFamily: 'Poppins').copyWith(
+      theme: ThemeData().copyWith(fontFamily: 'Poppins'
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFE2725B)),
           useMaterial3: true),
       home: const ExpensesHome(),
